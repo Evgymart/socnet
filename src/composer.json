@@ -1,0 +1,15 @@
+{
+    "name": "martyeugen/socnet",
+    "autoload": {
+        "psr-4": {
+            "Martyeugen\\Socnet\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Evgymart",
+            "email": "alignant@yandex.ru"
+        }
+    ],
+    "require": {}
+}
