@@ -11,6 +11,7 @@ services:
       context: .
     volumes:
       - ../src/:/opt/app
+      - ./php/:/usr/local/etc/php
     networks:
       - app-network
   nginx:
