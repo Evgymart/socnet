@@ -11,5 +11,7 @@
             "email": "alignant@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "phalcon/devtools": "^4.2"
+    }
 }
