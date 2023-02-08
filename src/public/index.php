@@ -4,7 +4,7 @@ use Phalcon\Di\FactoryDefault;
 use Phalcon\Autoload\Loader;
 use Phalcon\Mvc\View;
 use Phalcon\Mvc\Application;
-use Phalcon\Url;
+use Phalcon\Mvc\Url;
 
 define('BASE_PATH', dirname(__DIR__));
 define('APP_PATH', BASE_PATH . '/app');
@@ -12,8 +12,8 @@ define('APP_PATH', BASE_PATH . '/app');
 $loader = new Loader();
 $loader->setDirectories(
     [
-        APP_PATH . '/controllers/',
-        APP_PATH . '/models/',
+        'Socnet\Controllers' => APP_PATH . '/controllers/',
+        'Socnet\Modelrs' => APP_PATH . '/models/',
     ]
 );
 
