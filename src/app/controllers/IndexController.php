@@ -8,8 +8,8 @@ class IndexController extends Controller
     {
     }
 
-	public function registerAction()
+	public function signupAction()
     {
-
+		return "Register!";
     }
 }
