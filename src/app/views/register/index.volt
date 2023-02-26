@@ -5,7 +5,7 @@
 {% endblock %}
 {% block content %}
 <div id="register-form">
-	<form action="/action_page.php">
+	<form action="/register" method="POST">
 		<p>
 			<input type="text" id="fname" name="fname" value="" placeholder="First name">
 		</p>
@@ -13,8 +13,8 @@
 			<input type="text" id="lname" name="lname" value="" placeholder="Last name">
 		</p>
 		<p>
-			<label for="birthday">Birthday:</label>
-			<input type="date" id="birthday" name="birthday">
+			<label for="birthdate">Birthdate:</label>
+			<input type="date" id="birthdate" name="birthdate">
 		</p>
 		<p>
 			<label for="gender">Gender:</label>
