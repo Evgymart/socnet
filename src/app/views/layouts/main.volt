@@ -4,6 +4,7 @@
 <head>
 	<title> {{ this.tag.title().get() }} </title>
 	<meta charset="UTF-8">
+	{% block head %} {% endblock %}
 </head>
 <body>
 	{% block content %}{% endblock %}
