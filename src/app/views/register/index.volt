@@ -1,7 +1,7 @@
 {% extends 'layouts/main.volt' %}
 
 {% block head %}
-	<link rel='stylesheet' href='assets/css/register.css' />
+	<link rel='stylesheet' href='assets/css/auth.css' />
 {% endblock %}
 {% block content %}
 <div id="register-form">
