@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 use Phalcon\Mvc\Controller;
 use Phalcon\Tag;
@@ -19,8 +20,8 @@ class RegisterController extends Controller
 				'birthdate' => $this->request->getPost('birthdate', 'string'),
 				'gender' => $this->request->getPost('gender', 'string'),
 				'email' => $this->request->getPost('email', 'string'),
+				'biography' => $this->request->getPost('biography', 'string'),
 				'city' => $this->request->getPost('city', 'string'),
-				'interests' => $this->request->getPost('interests', 'string'),
 			];
 
 			$registerData = array_filter($registerData);

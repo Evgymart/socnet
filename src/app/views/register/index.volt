@@ -27,9 +27,12 @@
 		<p>
 			<input type="text" id="city" name="city" placeholder="City">
 		</p>
+		<p>
+			<input type="text" id="email" name="email" placeholder="email@mail.com">
+		</p>
         <p class="full-width">
-			<label for="interests">Interests</label>
-			<textarea name="interests" id="interests" rows="7"></textarea>
+			<label for="biography">Biography</label>
+			<textarea name="interests" id="biography" rows="7"></textarea>
         </p>
 		<p class="btn">
 			<input type="submit" value="Submit">

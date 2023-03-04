@@ -11,7 +11,7 @@
             "email": "alignant@yandex.ru"
         }
     ],
-    "require": {
-        "phalcon/devtools": "^4.2"
+    "require-dev": {
+        "phalcon/migrations": "^3.0"
     }
 }
